@@ -5,10 +5,10 @@ Console.Write("Введите второе число: ");
 int numB = Convert.ToInt32(Console.ReadLine());
 if (numA == numB * numB)
 {
-    Console.WriteLine("Числа равны!");
+    Console.WriteLine("Да!");
 
 }
 else
 {
-    Console.WriteLine("Числа не равны!");
+     Console.WriteLine("Нет!");
 }
